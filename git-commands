@@ -1,0 +1,11 @@
+To initialize the folder as Git repo - git init .
+GIT has 3 stages
+-Working Area
+-Stagging Area
+-Repository
+Commands used in each stage
+Working Area - We will see all untracked files in this stage
+git add "filename" - to add specified file in stagging area
+git add . - to add all files in stagging area
+git status - to check files status
+git diff - to comapre changes of working directory
