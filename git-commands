@@ -9,3 +9,7 @@ git add "filename" - to add specified file in stagging area
 git add . - to add all files in stagging area
 git status - to check files status
 git diff - to comapre changes of working directory
+Stagging Area - We will see all tracked files in this stage
+git commit -m "comment" - to add files to local repo
+git log - to check commit history
+git diff --staged/git diff --staged HEAD - compare changes of stagging area with local repo
