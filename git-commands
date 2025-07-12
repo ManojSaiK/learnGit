@@ -13,3 +13,18 @@ Stagging Area - We will see all tracked files in this stage
 git commit -m "comment" - to add files to local repo
 git log - to check commit history
 git diff --staged/git diff --staged HEAD - compare changes of stagging area with local repo
+Repository -
+git diff HEAD - to compare changes of working dir to local repo
+git diff commitID1(1st 6 digits) commitID2 - to compare 2 commits
+GITHUB - 
+git push origin master/"branch_name" - to push changes to github
+git pull - to get latest changes from repo
+git pull --rebase origin main - Apply my changes on top of the latest changes from the remote
+*NOTE: this command is used when changes are made without pulling
+To clone repository
+git clone "repo_http_link"
+Branches
+git branch - to check current branch
+git branch "branch_name" - to create branch
+git checkout -b test - creates branch test and switch to that branch
+
